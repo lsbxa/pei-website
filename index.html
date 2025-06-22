@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Prático</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./index.css">
+    <script src="./src/index.js" defer type="module"></script>
+</head>
+
+<body>
+    <main data-theme="dark">
+        <section class="hero">
+            <div class="hero__foreground">
+                <video class="hero__background" autoplay muted loop>
+                    <source src="./assets/video/videoplayback.mp4" type="video/mp4">
+                </video>
+                <h1 class="hero__title">PROJETO PEI</h1>
+                <P class="hero__text">
+                    Blog sobre tecnologias e suas possibilidades.
+                </P>
+                <button id="themeSwitcher">Mudar tema</button>
+                <a class="homeFor" id="home" href="./index.html">Home</a>
+            </div>
+        </section>
+        <div class="section-container">
+
+        <section class="section">
+            <h2 class="section__title">Infraestrutura em Nuvem</h2>
+            <a href="./articles/infra-em-nuvem/infra-em-nuvem.html">
+                <img class="section__img" src="./assets/images/robo-nuvem.png" alt="" />
+            </a>
+            <div class="section__text-inline">
+                <p>
+                    Como a infraestrutura em nuvem pode otimizar processos e melhorar o gerenciamento nas empresas
+                </p>
+            </div>
+            <a class="artigo" href="./articles/infra-em-nuvem/infra-em-nuvem.html">Ler Artigo</a>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Tecnologia atual em nossas vidas</h2>
+            <a href="./articles/automacao/automacoes.html">
+                <img class="section__img" src="./assets/images/robpensativo.jpg" alt="" />
+            </a>
+            <div class="section__text-inline">
+                <p>
+                    Artigo sobre como tecnologias atuais afetam o nosso dia a dia 
+                    e como podem ser integradas em empresas para melhoria de processos
+                </p>
+            </div>
+            <a class="artigo" href="./articles/automacao/automacoes.html">Ler Artigo</a>
+        </section>
+
+        <section class="section">
+            <h2 class="section__title">Sustentabilidade</h2>
+            <a href="./articles/techsustain/TechSustain.html">
+                <img class="section__img" src="./assets/images/artificial-intelligence-robot-generate-code.webp" alt="" />
+            </a>
+            <p class="section__text">
+                Como a sustentabilidade em sistemas de informação pode ser aplicada nos dias atuais?
+                Qual a importância e como obter esses resultados? Nesse artigo 
+                abordamos esses assuntos e como podemos resolvê-los.
+            </p>
+            <a class="artigo" href="./articles/techsustain/TechSustain.html">Ler Artigo</a>
+        </section>
+
+        </div>
+        <button id="scrollToTop" class="scroll">↑ Voltar ao topo</button>
+        <footer class="footer">
+            <a href="https://instagram.com/automatizar_processos">
+                <img id="demo" class="icon0" src="./assets/images/instagram3.png" alt="">
+            </a>
+            <a href="https://github.com/CloudSustentIA">
+                <img id="demo2" class="icon0" src="./assets/images/github.png" alt="">
+            </a>
+        </footer>
+    </main>
+    <!--Made by @lsbxa_-->
+</body>
+
+</html>
