@@ -1,3 +1,3 @@
-Basic Website for my school project
+Basic blog for my school project
 
 https://cloudsustentia.github.io/TechSustain/
